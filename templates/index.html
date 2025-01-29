@@ -6,7 +6,19 @@
     <title>Diniz Kubernetes!</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <p>Training Kubernetes with Docker!</p>
+    <h1>Hello World</h1>
+    <p>Training Kubernetes with Docker</p>
+    <p>Loving to learning docker</p>
+    <input type="name" id="nameInput" placeholder="Enter ur name">
+    <button onClick="showName()">Submit</button>
+
+    <p id="output"></p>
+
+    <script>
+        function showName() {
+            let name = document.getElementById("nameInput").value;
+            document.getElementById("output").innerText = "Hello " + name;
+        }
+    </script>
 </body>
 </html>

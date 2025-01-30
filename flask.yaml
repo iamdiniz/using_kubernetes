@@ -14,4 +14,4 @@ spec:
     spec:
       containers:
         - name: flask
-          image: dinizccs/flak-kub-project:2
+          image: dinizccs/flak-kub-project:3
